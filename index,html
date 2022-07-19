@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portPhotofolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul class="link-group">
+            <li class="link active"><a href="#">Home</a></li>
+            <li class="link"><a href="#">Project</a></li>
+            <li class="link"><a href="#">About</a></li>
+            <li class="link"><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- home action -->
+    <section class="home-section active">
+        <h1 class="hero-heading">Hello i, am <br>Rahmat surandi</h1>
+        <img src="img/home.png" class="hero-img" alt="">
+    </section>
+    <!-- project section -->
+    <section class="project-section active">
+        <h1 class="project-heading">some of my project</h1>
+        <div class="project-container">
+            <div class="project-card">
+                <img src="img/project-1.png" class="project-img" alt="">
+                <div class="project-content">
+                    <h1 class="project-title">project 1</h1>
+                    <p class="project-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, amet quis
+                        explicabo asperiores ipsa exercitationem aut laudantium minus architecto expedita?</p>
+                    <div class="project-btn-grp">
+                        <button class="project-btn github">github repository</button>
+                        <button class="project-btn_live">see live</button>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="img/project-2.png" class="project-img" alt="">
+                <div class="project-content">
+                    <h1 class="project-title">project 2</h1>
+                    <p class="project-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, amet quis
+                        explicabo asperiores ipsa exercitationem aut laudantium minus architecto expedita?</p>
+                    <div class="project-btn-grp">
+                        <button class="project-btn github">github repository</button>
+                        <button class="project-btn_live">see live</button>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="img/project-3.png" class="project-img" alt="">
+                <div class="project-content">
+                    <h1 class="project-title">project 3</h1>
+                    <p class="project-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, amet quis
+                        explicabo asperiores ipsa exercitationem aut laudantium minus architecto expedita?</p>
+                    <div class="project-btn-grp">
+                        <button class="project-btn github">github repository</button>
+                        <button class="project-btn_live">see live</button>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="img/project-4.png" class="project-img" alt="">
+                <div class="project-content">
+                    <h1 class="project-title">project 4</h1>
+                    <p class="project-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, amet quis
+                        explicabo asperiores ipsa exercitationem aut laudantium minus architecto expedita?</p>
+                    <div class="project-btn-grp">
+                        <button class="project-btn github">github repository</button>
+                        <button class="project-btn_live">see live</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- about section -->
+    <section class="about-section active">
+        <div class="about">
+            <div class="about-img-container">
+                <img src="img/home.png" class="about-img" alt="">
+                <button class="download-cv-btn">download cv</button>
+            </div>
+            <p class="about-info">Nama saya RAHMAT SURANDI Berbekal sekolah menengah SMK jakarta 1,dan ilmu ilmu yang
+                saya dapatkan baik dari
+                kursus maupun belajar dengan media sosial saya siap membantu memajukan perusahaan yang bapak / ibu
+                pimpin.
+            </p>
+
+
+        </div>
+    </section>
+    <!-- skill -->
+    <div class="skill-section">
+        <h1 class="heading">skills</h1>
+        <div class="skills-container">
+            <div class="skill-card">
+                <img src="img/html.png" alt="">
+                <div class="skill-level">77%</div>
+                <h1 class="skill-name">HTML</h1>
+                <p class="skill-info">HyperTextMarkupLanguage</p>
+            </div>
+            <div class="skill-card">
+                <img src="img/css.png" alt="">
+                <div class="skill-level">77%</div>
+                <h1 class="skill-name">CSS</h1>
+                <p class="skill-info">Casecading style sheet</p>
+            </div>
+            <div class="skill-card">
+                <img src="img/js.png" alt="">
+                <div class="skill-level">77%</div>
+                <h1 class="skill-name">JS</h1>
+                <p class="skill-info">javascript</p>
+            </div>
+            <div class="skill-card">
+                <img src="img/nodejs.png" alt="">
+                <div class="skill-level">77%</div>
+                <h1 class="skill-name">NODE.JS</h1>
+                <p class="skill-info"></p>
+            </div>
+            <div class="skill-card">
+                <img src="img/angular.png" alt="">
+                <div class="skill-level">77%</div>
+                <h1 class="skill-name">Angular</h1>
+                <p class="skill-info"></p>
+            </div>
+        </div>
+    </div>
+    <!-- TIME LINE -->
+    <div class="timeline">
+        <h1 class="heading">Education and Experience</h1>
+        <div class="card">
+            <div class="card-body">
+                <h1 class="card-title">2005-2007</h1>
+                <p class="card-detail">
+                <ul>
+                    <li>PT.YAMAHA MOTOR MANUFACTURING INDONESIA</li>
+                    <li>operator produksi</li>
+                </ul>
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h1 class="card-title">2007-2009</h1>
+                <p class="card-detail">
+                <ul>
+                    <li>PT.DACREA</li>
+                    <li>pencatat meter PALYJA</li>
+                </ul>
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h1 class="card-title">2009-2012</h1>
+                <p class="card-detail">
+                <ul>
+                    <li>PT.ROYAL ARTINDO KREASI</li>
+                    <li>Teknisi listrik</li>
+                </ul>
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h1 class="card-title">2012-2013</h1>
+                <p class="card-detail">
+                <ul>
+                    <li>PT.GEOTRANS</li>
+                    <li>Administrasi</li>
+                </ul>
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h1 class="card-title">2015-2020</h1>
+                <p class="card-detail">
+                <ul>
+                    <li>PT.GOJEK INDONESIA</li>
+                    <li>MITRA PENGEMUDI RODA DUA</li>
+                </ul>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- contact section -->
+    <section class="contact-section active">
+        <form class="contact-form">
+            <input type="text" name="name" id="name" autocomplete="off" placeholder="name">
+            <input type="text" name="email" id="email" autocomplete="off" placeholder="email">
+            <textarea name="msg" id="msg" placeholder="message" autocomplete="off"></textarea>
+            <button type="submit" class="form-submit-btn">contact</button>
+        </form>
+        <!-- map -->
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15865.21940686128!2d106.94767755000001!3d-6.22347485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1658255510831!5m2!1sid!2sid"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+</body>
+<script src="script.js"></script>
+
+</html>
